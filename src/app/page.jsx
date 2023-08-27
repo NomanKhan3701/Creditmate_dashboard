@@ -301,7 +301,7 @@ export default function Home() {
       <div className="offers">
         {offers.map((offer, index) => {
           return (
-            <div className="offer">
+            <div className="offer" key={index}>
               <div className="offer_img">
                 <img
                   src={
